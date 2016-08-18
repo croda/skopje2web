@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="City of Skopje landing page" content="">
+    <meta name="author" content="Davor Barisic-Jaman">
+
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32"/>
+    <title>Visit Skopje</title>
+
+    <!-- CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/leaflet.css" rel="stylesheet">
+    <link href="assets/css/L.Control.Locate.min.css" rel="stylesheet">
+
+       <!-- Custom styles CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+    <script src="assets/js/modernizr.custom.js"></script>
+   
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, r;
+    e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.2.0'
+drift.load('7hxgu2vwsayt')
+</script>
+<!-- End of Async Drift Code -->
+
+</head>
+<body>
+
+<!-- Preloader -->
+
+<div id="preloader">
+    <div id="status"></div>
+</div>
+
+<!-- Home start -->
+
+<section id="home" class="pfblock-image screen-height">
+    <div class="home-overlay"></div>
+    <div class="intro">
+        <div class="start"></div>
+        <h1>Visit Skopje</h1>
+        <div class="start">Capital of Macedonia</div>
+    </div>
+
+    <a href="#about">
+        <div class="scroll-down">
+            <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+        </div>
+    </a>
+
+</section>
+
+<!-- Home end -->
+
+<!-- Navigation start -->
+
+<header class="header">
+
+    <nav class="navbar navbar-custom" role="navigation">
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Visit Skopje</a>
+            </div>
+
+            <div class="collapse navbar-collapse " id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#sights">Sights</a></li>
+                    <li><a href="#experience">Experience Skopje</a></li>
+                    <li><a href="#contact">???</a></li>
+                </ul>
+            </div>
+
+        </div><!-- .container -->
+
+    </nav>
+
+</header>
+
+<!-- Navigation end -->
+
+<!-- GOOGLE MAPS START -->
+<section id="about" class="pfblock pfblock-gray">
+
+    
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">All roads lead to Skopje</h2>
+                    <div class="pfblock-line"></div>
+                    <div class="pfblock-subtitle">
+                        Skopje is the capital of the Republic of Macedonia, in the center of the Balkan Peninsula. Over
+                        time it has experienced Roman, Byzantine and Ottoman rule. The 15th-century Stone Bridge
+                        connects the Ottoman Old Bazaar (Čaršija) on the Vardar River‘s north bank with contemporary
+                        Macedonia Square to the south. The Skopje (Kale) Fortress overlooking the river has defended the
+                        city for centuries.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div id="map" onload="getLocation()">
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!-- GOOGLE MAPS END -->
+
+<!-- YOUTUBE VID -->
+<section id="food" class="pfblock ">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Uee1RA_k3iw"></iframe>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">A Taste of Skopje</h2>
+                    <div class="pfblock-line"></div>
+                    <div class="pfblock-subtitle">
+                        Skopje is the capital of the Republic of Macedonia, in the center of the Balkan Peninsula. Over
+                        time it has experienced Roman, Byzantine and Ottoman rule. The 15th-century Stone Bridge
+                        connects the Ottoman Old Bazaar (Čaršija) on the Vardar River‘s north bank with contemporary
+                        Macedonia Square to the south. The Skopje (Kale) Fortress overlooking the river has defended the
+                        city for centuries.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- YOUTUBE VID END -->
+
+</section>
+<!-- Sights start -->
+
+<section id="sights" class="pfblock pfblock-gray">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-6 col-sm-offset-3">
+
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">Sights</h2>
+                    <div class="pfblock-line"></div>
+                    <div class="pfblock-subtitle">
+                        Learn more about the marvelous natural wonders and sights that Skopje has to offer, from great
+                        canyons to lush woods all the way to the traditional spirit woven into the city bazaar.
+                    </div>
+                </div>
+
+            </div>
+
+        </div><!-- .row -->
+
+
+        <div class="row">
+
+        <div style="cursor: pointer;" onclick="window.location='Kale.html';">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+                <div class="grid wow zoomIn">
+                    <figure class="effect-bubba">
+                        <img src="assets/images/Kale1.jpg" alt="Fortress Kale"/>
+                        <figcaption>
+                            <h2>Fortress <span>Kale</span></h2>
+                            <p>The Fortress that's protected Skopje throught history</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+
+            <div style="cursor: pointer;" onclick="window.location='matka.html';">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/Matka1.jpg" alt="Canyon Matka"/>
+                            <figcaption>
+                                <h2>Canyon <span>Matka</span></h2>
+                                <p>Visit Matka and experience freedom</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+                <div class="grid wow zoomIn">
+                    <figure class="effect-bubba">
+                        <img src="assets/images/square.jpg" alt="Square Macedonia"/>
+                        <figcaption>
+                            <h2>Square  <span>Macedonia</span></h2>
+                            <p>Visit Matka and experience freedom</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+                <div class="grid wow zoomIn">
+                    <figure class="effect-bubba">
+                        <img src="assets/images/Akvadukt1.jpg" alt="Skopje Aqueduct"/>
+                        <figcaption>
+                            <h2>Skopje <span>Aqueduct</span></h2>
+                            <p>Visit Matka and experience freedom</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+                <div class="grid wow zoomIn">
+                    <figure class="effect-bubba">
+                        <img src="assets/images/Carsija1.jpg" alt="Old Bazaar"/>
+                        <figcaption>
+                            <h2>Old <span>Bazaar</span></h2>
+                            <p>A melting pot of cultures and traditions</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+
+                <div class="grid wow zoomIn">
+                    <figure class="effect-bubba">
+                        <img src="assets/images/krst.jpg" alt="Millenial Cross"/>
+                        <figcaption>
+                            <h2>Millenial <span>Cross</span></h2>
+                            <p>Visit Matka and experience freedom</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div><!-- .contaier -->
+
+</section>
+
+<!-- Sights end -->
+
+
+<!-- Map Start -->
+<section id="experience" class="pfblock">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-6 col-sm-offset-3">
+
+                <div class="pfblock-header wow fadeInUp">
+                    <h2 class="pfblock-title">Experience Skopje</h2>
+                    <div class="pfblock-line"></div>
+                    <div class="pfblock-subtitle">
+                        No one lights a lamp in order to hide it behind the door: the purpose of light is to create more
+                        light, to open people’s eyes, to reveal the marvels around.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div id="lmap">
+
+
+            </div>
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section>
+
+
+<!-- CallToAction start -->
+
+<section class="calltoaction">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 col-lg-12">
+                <h2 class="wow slideInRight" data-wow-delay=".1s">WANT TO FIND OUT MORE?</h2>
+                <div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+                    All the newest stories and events in Skopje.
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+                <a href="#" class="btn btn-lg">Click Here</a>
+            </div>
+
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section>
+
+<!-- CallToAction end -->
+
+
+<!-- Footer start -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <ul class="social-links">
+                    <li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
+                            class="fa fa-google-plus"></i></a></li>
+                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
+                    </li>
+                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
+                            class="fa fa-envelope"></i></a></li>
+                </ul>
+
+                <p class="heart">
+                    Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Skopje
+                </p>
+                <p class="copyright">
+                    &copy;<!--  --> 2016 Davor Barisic-Jaman | Images belong to their original authors
+                </p>
+
+            </div>
+
+        </div><!-- .row -->
+    </div><!-- .container -->
+</footer>
+
+<!-- Footer end -->
+
+<!-- Scroll to top -->
+
+<div class="scroll-up">
+    <a href="#home"><i class="fa fa-angle-up"></i></a>
+</div>
+
+<!-- Scroll to top end-->
+
+<!-- Javascript files -->
+
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+<script src="assets/js/imagesloaded.pkgd.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/leaflet.markercluster-src.js"></script>
+<script src="assets/js/markers.js"></script>
+<script src="assets/js/mapsleep.js"></script>
+<script src="assets/js/L.Control.Locate.min.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/gmap.js"></script>
+<script src="assets/js/gmap3.min.js"></script>
+
+
+
+
+</body>
+</html>

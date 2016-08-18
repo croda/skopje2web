@@ -1,0 +1,51 @@
+.background1, .background2, .background3{
+    
+  top:0;
+  left:10px;
+
+  width:100%;
+  height:100%;
+}
+
+
+.section {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.section .section-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section.section-body .brand-heading {
+    font-size: 36px;
+}
+
+.section .section-body .section-text {
+    font-size: 18px;
+}
+
+.background1 {
+    background: url(../images/Matka1.jpg) center center fixed ;
+    background-size: cover;
+    z-index: -2;
+}
+
+.background2 {
+    background: url(../images/Matka2.jpg) center center fixed ;
+    z-index: -3;
+}
+.background3 {
+    background: url(../images/Matka3.jpg) center center fixed;
+    z-index: -4;
+}
+
